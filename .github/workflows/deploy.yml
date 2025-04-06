@@ -33,7 +33,7 @@ jobs:
     - name: Upload artifact
       uses: actions/upload-artifact@v4
       with:
-        name: pages-artifact
+        name: github-pages
         path: _build/html
 
   deploy:
