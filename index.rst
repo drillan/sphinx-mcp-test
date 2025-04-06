@@ -14,3 +14,5 @@ Sphinx-MCP-Sample ドキュメント
    :maxdepth: 2
    :caption: 目次:
 
+   sphinx_users
+
