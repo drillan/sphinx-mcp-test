@@ -6,39 +6,30 @@
 Sphinx-MCP-Sample ドキュメント
 ===============================
 
-プロジェクトの概要
------------------
-
-このプロジェクトは、Model Context Protocol (MCP) をSphinxで活用するためのサンプルプロジェクトです。
-MCPの機能を効果的に活用し、高品質なドキュメントを作成する方法を紹介します。
-
-主な特徴
---------
-
-* Sphinxによる美しいドキュメント生成
-* Model Context Protocolの統合
-* 日本語ドキュメントのサポート
-* カスタマイズ可能なテーマとスタイル
-
-クイックスタート
+プロジェクト概要
 --------------
 
-1. プロジェクトのセットアップ::
+Sphinx-MCP-Sampleは、Model Context Protocol (MCP)とSphinxを組み合わせた
+先進的なドキュメント作成システムです。以下の特徴があります：
 
-    $ git clone https://github.com/yourusername/sphinx-mcp-test
-    $ cd sphinx-mcp-test
-    $ pip install -r requirements.txt
+* MCPによる高度な文脈理解
+* Sphinxの豊富な機能
+* カスタマイズ可能なテーマ
 
-2. ドキュメントのビルド::
+インストール手順
+-------------
 
-    $ make html
+1. 必要なパッケージのインストール::
 
-3. ブラウザで ``_build/html/index.html`` を開いてドキュメントを確認
+    pip install sphinx mcp-server
 
-詳細なドキュメント
-----------------
+2. プロジェクトのクローン::
 
-以下のセクションで、より詳細な情報を確認できます：
+    git clone https://github.com/yourusername/sphinx-mcp-test
+
+3. ビルドの実行::
+
+    make html
 
 .. toctree::
    :maxdepth: 2
