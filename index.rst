@@ -6,11 +6,26 @@
 Sphinx-MCP-Sample ドキュメント
 ===============================
 
-``reStructuredText`` 構文を使用してコンテンツを追加してください。
-詳細については、`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_ ドキュメントを参照してください。
+はじめに
+--------
 
+このプロジェクトは、効率的なドキュメント作成のためのサンプルプロジェクトです。
+以下の特徴があります：
+
+* シンプルな構造
+* 分かりやすい例
+* 実践的なサンプル
+
+使い方
+------
+
+1. リポジトリのクローン
+2. 依存関係のインストール
+3. ドキュメントのビルド
 
 .. toctree::
    :maxdepth: 2
    :caption: 目次:
+
+   sphinx_users
 
