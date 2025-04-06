@@ -31,8 +31,9 @@ jobs:
       run: uv run make html
 
     - name: Upload artifact
-      uses: actions/upload-pages-artifact@v1
+      uses: actions/upload-artifact@v3
       with:
+        name: pages-artifact
         path: _build/html
 
   deploy:
