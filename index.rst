@@ -6,9 +6,39 @@
 Sphinx-MCP-Sample ドキュメント
 ===============================
 
-``reStructuredText`` 構文を使用してコンテンツを追加してください。
-詳細については、`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_ ドキュメントを参照してください。
+プロジェクトの概要
+-----------------
 
+このプロジェクトは、Model Context Protocol (MCP) をSphinxで活用するためのサンプルプロジェクトです。
+MCPの機能を効果的に活用し、高品質なドキュメントを作成する方法を紹介します。
+
+主な特徴
+--------
+
+* Sphinxによる美しいドキュメント生成
+* Model Context Protocolの統合
+* 日本語ドキュメントのサポート
+* カスタマイズ可能なテーマとスタイル
+
+クイックスタート
+--------------
+
+1. プロジェクトのセットアップ::
+
+    $ git clone https://github.com/yourusername/sphinx-mcp-test
+    $ cd sphinx-mcp-test
+    $ pip install -r requirements.txt
+
+2. ドキュメントのビルド::
+
+    $ make html
+
+3. ブラウザで ``_build/html/index.html`` を開いてドキュメントを確認
+
+詳細なドキュメント
+----------------
+
+以下のセクションで、より詳細な情報を確認できます：
 
 .. toctree::
    :maxdepth: 2
