@@ -9,6 +9,7 @@ Sphinx-MCP-Sample ドキュメント
 ``reStructuredText`` 構文を使用してコンテンツを追加してください。
 詳細については、`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_ ドキュメントを参照してください。
 
+コンフリクトのてすと
 
 .. toctree::
    :maxdepth: 2
